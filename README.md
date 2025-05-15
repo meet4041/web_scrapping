@@ -16,26 +16,32 @@ Pandas
 Jupyter Notebook
 
 📁 File Structure
+
 ├── Web_Scrapping.ipynb  # Main Jupyter notebook
+
 ├── README.md            # Project documentation
 
 🚀 How to Run
 1. Clone the repository:
 
-   a
-git clone https://github.com/meet4041/web_scrapping.git
-cd web_scrapping
+   git clone https://github.com/meet4041/web_scrapping.git
 
-3. Install required libraries:
-pip install -r requirements.txt
-	2.1 Requirements: 
-		2.1.1 beautifulsoup4
-		2.1.2 equests
-		2.1.3 pandas
-		2.1.4 notebook
+   cd web_scrapping
 
-4. Launch Jupyter Notebook:
-jupyter notebook Web_Scrapping.ipynb
+4. Install required libraries:
+
+   pip install -r requirements.txt
+
+   	Requirements:
+
+   		pip install beautifulsoup4
+   		pip install requests
+   		pip install pandas
+   		pip install notebook
+
+6. Launch Jupyter Notebook:
+
+   jupyter notebook Web_Scrapping.ipynb
 
 📌 Example Use Case
 You can modify the URL and HTML tag selection logic to scrape data from different websites such as:
@@ -43,6 +49,7 @@ You can modify the URL and HTML tag selection logic to scrape data from differen
 2. Product prices
 3. News headlines
 4. Book info, etc.
+
 
 ⚠️ Disclaimer
 This project is for educational purposes only. Make sure to review and respect the terms of service of any website you scrape.
