@@ -21,10 +21,12 @@ Jupyter Notebook
 
 🚀 How to Run
 1. Clone the repository:
+
+   a
 git clone https://github.com/meet4041/web_scrapping.git
 cd web_scrapping
 
-2. Install required libraries:
+3. Install required libraries:
 pip install -r requirements.txt
 	2.1 Requirements: 
 		2.1.1 beautifulsoup4
@@ -32,7 +34,7 @@ pip install -r requirements.txt
 		2.1.3 pandas
 		2.1.4 notebook
 
-3. Launch Jupyter Notebook:
+4. Launch Jupyter Notebook:
 jupyter notebook Web_Scrapping.ipynb
 
 📌 Example Use Case
